@@ -14,7 +14,7 @@ Github for Lab Assignment 5 (Week 7 - Version Control)
 
 ![Forking a Repo](/images/forkrepo.png)
 
-2. The member that forked this repository should now add the other group members as collaborators on the repository 
+2. The member that forked this repository should now add the other group members as collaborators on the repository. Note the images below are all from my **personal** GitHub account and not the class organization like the image above. You will NOT be editing the original repository, but instead will be working from the forked repository you make in step 1 for the remainder of the lab assignment.
 
    **A. Click Settings**
     
@@ -87,3 +87,8 @@ Github for Lab Assignment 5 (Week 7 - Version Control)
     C. Use the text submission section on the assignment page to post a link to your Lab #4 repository hosted on Github. Again, only the single group member submitting the zipped repository needs to do this. 
     
       >If you want to make sure your reflection was included, download the zip file from Canvas and unpack it locally to make sure your file is in there. If not, use git to add your file to the repository and then repeat the cloning step to upload an updated version of the repository. If your reflection is not included, you will not get credit for this lab!
+
+
+## Acknowledgements
+
+This lab assignment was originally created by former GTA Dr. Amanda Clark in 2020. It has been revised in subsequent years to stay consistent with changes in the course.
