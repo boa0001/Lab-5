@@ -20,15 +20,15 @@ Github for Lab Assignment 5 (Week 7 - Version Control)
     
     ![Settings Menu](/images/settings.png)
     
-   **B. Click Manage access**
+   **B. Click Collaborators**
     
     ![Manage Access](/images/manageaccess.png)
     
-    **C. Click Invite a collaborator**
+    **C. Click Add people**
     
     ![Inviting a Collaborator](/images/Invitecollab.png)
     
-    **D. Use your partner's github account names to add them**
+    **D. Use your partner's github account names to add them each to the forked repo**
         
     
 3. Use the url for the repository and `git clone` to set up a remote connection to your newly forked repository locally (or on ASC) at the command line.
@@ -40,11 +40,17 @@ Github for Lab Assignment 5 (Week 7 - Version Control)
 
 4. Modify the script `rc.sh` (from Week 5 lectures) inside of your forked repository from your command line using git. **Remember, your group members are working on this same document.**
 
+   >Hint: We will be fixing the rc.sh script from the video 2.07 on Pseudocode. Remember from Lab 3 that you worked with both versions of this program that makes a reverse complement of a fasta file!
+
 5. You group's new script should adhere the following (**Read to completion before editing**):
 
     * Replace the loop in the script with a one-liner that converts sequence string to the reverse complement of that sequence using the `rev` command
     
+       >Reminder: In the pseudocode video, I mentioned that the loop was computationally inefficient, so it was then replaced with a pipe that first used the `rev` command which reverses the sequence and then the `tr` command that performs the complementation as a single one-liner instead of a loop.
+    
     * Edit the `tr` command to be case-insensitive (can accept sequences in lower- or uppercase)
+    
+      >This is not something we did as part of the video, but will make the code more universal to accept fasta files that have either upper case or lower case sequences.
     
     * Remove any code that is no longer necessary to output the reverse complement of a sequence string
     
@@ -52,7 +58,15 @@ Github for Lab Assignment 5 (Week 7 - Version Control)
         * Use an `if...else` statement with these conditionals `if [ $# -lt 1 ] || [ $# -gt 1 ]` at the start of your script to test for the number of arguments given. 
         * Remember to print only the help message if there is not a single argument given at the command line to run the script with. 
          
-    * Remove any echo statements that provide "sanity checks" (tells you that the code is behaving as expected). Redirect the reverse complement of the sequence string into a correctly formatted FASTA file named exactly as the input argument **but** with `rc.` appended to the beginning of the output filename. 
+           >"Sanity checks" are conditional statements that test a particular condition. Then, the program will execute one set of commands if the condition is true, or alternatively a different set of commands if the condition is false. This is important for flow control in programs. Here, this conditional will test whether the user has included a file on the command line when executing the script using command arguments. If not, it should print an error instructing the user to include the filename when executing the script. Review the syntax on command arguments and conditionals to try to parse this code.
+         
+    * Comment out any echo statements that also provide "sanity checks" (tells you that the code is behaving as expected). 
+    
+      > It is good practice to keep these statements in your code, but to put a `#` in front to convert it to a comment. This way if you later make edits, it will be easy to remove the `#` and turn the statements back on for later use.
+    
+    * Redirect the reverse complement of the sequence string into a correctly formatted FASTA file named exactly as the input argument **but** with `rc.` appended to the beginning of the output filename. 
+    
+      >Reminder: this updated syntax is part of the scripts provided as part of Lab 3.
     
     * Name your new, efficient script as `rev_comp.sh` (You should not edit the original script, as a best practice, in case you need to start over)
 
@@ -71,3 +85,5 @@ Github for Lab Assignment 5 (Week 7 - Version Control)
     ![Getting Repo.zip](/images/submit.png)
     
     C. Use the text submission section on the assignment page to post a link to your Lab #4 repository hosted on Github. Again, only the single group member submitting the zipped repository needs to do this. 
+    
+      >If you want to make sure your reflection was included, download the zip file from Canvas and unpack it locally to make sure your file is in there. If not, use git to add your file to the repository and then repeat the cloning step to upload an updated version of the repository. If your reflection is not included, you will not get credit for this lab!
