@@ -91,4 +91,4 @@ Github for Lab Assignment 5 (Week 7 - Version Control)
 
 ## Acknowledgements
 
-This lab assignment was originally created by former GTA Dr. Amanda Clark in 2020. It has been revised in subsequent years to stay consistent with changes in the course.
+This lab assignment was originally created by former GTA [Dr. Amanda Clark](https://github.com/adc0032/Version_Ctrl_Lab) in 2020. It has been revised in subsequent years to stay consistent with changes in the course.
