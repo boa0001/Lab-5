@@ -26,14 +26,14 @@ Github for Lab Assignment 5 (Week 7 - Version Control)
     
     **C. Click Add people**
     
-    ![Inviting a Collaborator](/images/Invitecollab.png)
+    ![Inviting a Collaborator](/images/invitecollab.png)
     
     **D. Use your partner's github account names to add them each to the forked repo**
         
     
 3. Use the url for the repository and `git clone` to set up a remote connection to your newly forked repository locally (or on ASC) at the command line.
 
-![Getting your Repository URL](/images/cloneRepo.png)
+![Getting your Repository URL](/images/clonerepo.png)
 
 
 ## Collaborative Coding
