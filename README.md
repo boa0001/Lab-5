@@ -1,6 +1,18 @@
 # Lab Assignment 5
 Github for Lab Assignment 5 (Week 7 - Version Control)
 
+## Prerequisites
+- You need to have made a free account on GitHub and shared your username with the instructor via Canvas
+- Watched all the videos from canvas in Week 8 of class
+- Some practice with GitHub via Lab 4
+- Some practice with piping from Module 1
+- Some practice with programming concepts from Lab 3 and videos from Week 5-6 of class
+
+## Learning Goals
+- Practice coding collaboratively with members of your group
+- Practice using git on the command line
+- Practice adding sanity checks to code (necessary for 2nd Capstone project)
+
 ## Learning Objectives 
 
 - Use version control software (git) to track changes to code
