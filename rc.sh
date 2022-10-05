@@ -28,7 +28,7 @@ reverse=`echo $sequence | rev`
 #echo "$sequence$reverse"
 
 #complement sequence
-rc=`echo $reverse | tr 'ATCG' 'TAGC'`
+rc=`echo $reverse | tr 'atcgATCG' 'tagcTAGC'`
 
 #echo "$rc"
 
