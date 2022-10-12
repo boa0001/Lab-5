@@ -1,0 +1,7 @@
+Reflect on how you currently manage your documents and code, particularly content associated with publishable work. Would it stand up to a reproducibility test? How do you think non-reproducible research affects computational biology and bioinformatics? What about in your specific field of study?
+
+
+Currently managing files is the basic process that is very normal but working with the manuscripts is difficult as I don't have experience in working with them with codes,but using the class study from this course I think I will be able to go ahead and make myself accustomed to the easier approach to manuscript.
+The current mode of approach is not a reproducible test.Unlike the reproducible test we don't really have much access to the data it limits the progress in the non-reproducibility test thus making it difficult for anyone on the research team to access the data.
+
+In the field of study I am in, the data to process and work with are really large, so the data is processed with the experiments and maybe published only when the data is completely processed.
